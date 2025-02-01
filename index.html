@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Test Client</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .connection-panel, .message-panel {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .logs {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #eee;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: monospace;
+        }
+        .error { color: red; }
+        .success { color: green; }
+        .info { color: blue; }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        button {
+            padding: 5px 10px;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebSocket Test Client</h1>
+    <div class="container">
+        <div class="connection-panel">
+            <h2>Connection</h2>
+            <div>
+                <label>WebSocket URL:
+                    <input type="text" id="wsUrl" value="ws://localhost:8765">
+                </label>
+            </div>
+            <div>
+                <label>Path:
+                    <input type="text" id="wsPath" value="/test">
+                </label>
+            </div>
+            <button id="connectBtn">Connect</button>
+            <button id="disconnectBtn" disabled>Disconnect</button>
+        </div>
+        
+        <div class="message-panel">
+            <h2>Messages</h2>
+            <div>
+                <label>Message:
+                    <input type="text" id="message" placeholder="Enter message">
+                </label>
+            </div>
+            <button id="sendBtn" disabled>Send Message</button>
+        </div>
+    </div>
+    
+    <h2>Logs</h2>
+    <div class="logs" id="logs"></div>
+
+    <script>
+        let ws = null;
+        
+        const connectBtn = document.getElementById('connectBtn');
+        const disconnectBtn = document.getElementById('disconnectBtn');
+        const sendBtn = document.getElementById('sendBtn');
+        const logsDiv = document.getElementById('logs');
+        
+        function log(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = type;
+            div.textContent = `${new Date().toLocaleTimeString()} - ${message}`;
+            logsDiv.appendChild(div);
+            logsDiv.scrollTop = logsDiv.scrollHeight;
+        }
+        
+        function connect() {
+            const url = document.getElementById('wsUrl').value;
+            const path = document.getElementById('wsPath').value;
+            
+            try {
+                ws = new WebSocket(`${url}${path}`);
+                
+                ws.onopen = () => {
+                    log('Connected successfully', 'success');
+                    connectBtn.disabled = true;
+                    disconnectBtn.disabled = false;
+                    sendBtn.disabled = false;
+                };
+                
+                ws.onclose = () => {
+                    log('Disconnected from server', 'info');
+                    connectBtn.disabled = false;
+                    disconnectBtn.disabled = true;
+                    sendBtn.disabled = true;
+                };
+                
+                ws.onerror = (error) => {
+                    log(`WebSocket error: ${error.message}`, 'error');
+                };
+                
+                ws.onmessage = (event) => {
+                    log(`Received: ${event.data}`);
+                };
+                
+            } catch (error) {
+                log(`Connection error: ${error.message}`, 'error');
+            }
+        }
+        
+        function disconnect() {
+            if (ws) {
+                ws.close();
+                ws = null;
+            }
+        }
+        
+        function sendMessage() {
+            const message = document.getElementById('message').value;
+            if (ws && message) {
+                ws.send(message);
+                log(`Sent: ${message}`);
+                document.getElementById('message').value = '';
+            }
+        }
+        
+        connectBtn.onclick = connect;
+        disconnectBtn.onclick = disconnect;
+        sendBtn.onclick = sendMessage;
+        
+        document.getElementById('message').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
