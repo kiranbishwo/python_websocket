@@ -1,19 +1,4 @@
-2025-02-02 01:26:03,247 - INFO - WebSocket Server running on ws://0.0.0.0:8765
-2025-02-02 01:26:22,476 - INFO - Client ('127.0.0.1', 56601) connected to /test
-2025-02-02 01:28:11,381 - INFO - Client ('127.0.0.1', 56601) disconnected from /test
-2025-02-02 01:28:43,638 - INFO - Client ('127.0.0.1', 56731) connected to /
-2025-02-02 01:28:43,639 - INFO - Client ('127.0.0.1', 56732) connected to /
-2025-02-02 01:28:43,642 - INFO - Client ('127.0.0.1', 56733) connected to /
-2025-02-02 01:29:05,233 - INFO - Client ('127.0.0.1', 56746) connected to /test
-2025-02-02 01:29:43,636 - INFO - Client ('127.0.0.1', 56733) disconnected from /
-2025-02-02 01:29:43,636 - INFO - Client ('127.0.0.1', 56731) disconnected from /
-2025-02-02 01:29:43,636 - INFO - Client ('127.0.0.1', 56732) disconnected from /
-2025-02-02 01:29:47,350 - INFO - Client ('127.0.0.1', 56777) connected to /
-2025-02-02 01:29:47,352 - INFO - Client ('127.0.0.1', 56778) connected to /
-2025-02-02 01:29:47,352 - INFO - Client ('127.0.0.1', 56779) connected to /
-2025-02-02 01:30:10,451 - INFO - Client ('127.0.0.1', 56778) disconnected from /
-2025-02-02 01:30:10,451 - INFO - Client ('127.0.0.1', 56779) disconnected from /
-2025-02-02 01:30:10,451 - INFO - Client ('127.0.0.1', 56777) disconnected from /
-2025-02-02 01:30:26,240 - INFO - Client ('127.0.0.1', 56746) disconnected from /test
-2025-02-02 01:30:59,742 - INFO - Client ('127.0.0.1', 56843) connected to /hello
-2025-02-02 01:31:27,912 - INFO - Client ('127.0.0.1', 56843) disconnected from /hello
+2025-04-20 19:12:21,347 - INFO - WebSocket Server running on ws://0.0.0.0:8765
+2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50984) connected to /
+2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50985) connected to /
+2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50986) connected to /
