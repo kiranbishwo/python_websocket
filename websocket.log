@@ -1,4 +1,620 @@
-2025-04-20 19:12:21,347 - INFO - WebSocket Server running on ws://0.0.0.0:8765
-2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50984) connected to /
-2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50985) connected to /
-2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50986) connected to /
+2025-05-21 23:08:01,970 - INFO - WebSocket server initialized
+2025-05-21 23:08:01,993 - INFO - HTTP Server running on http://0.0.0.0:8766
+2025-05-21 23:08:01,993 - INFO - WebSocket Server running on ws://0.0.0.0:8765
+2025-05-21 23:11:54,100 - INFO - Client 127.0.0.1:61881 connected to /
+2025-05-21 23:11:54,103 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:11:54,106 - INFO - Total connected clients: 1
+2025-05-21 23:11:54,106 - INFO - Rooms: 0
+2025-05-21 23:11:54,106 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:11:54,106 - INFO - ============================
+2025-05-21 23:12:00,023 - INFO - Client 127.0.0.1:61881 subscribed to room: session_7
+2025-05-21 23:12:23,174 - INFO - Client 127.0.0.1:61897 connected to /chat
+2025-05-21 23:12:23,180 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:12:23,181 - INFO - Total connected clients: 2
+2025-05-21 23:12:23,181 - INFO - Rooms: 1
+2025-05-21 23:12:23,182 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:12:23,182 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:12:23,182 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:12:23,182 - INFO - ============================
+2025-05-21 23:12:24,303 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:12:24,303 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:12:54,295 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:12:54,295 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:13:24,301 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:13:24,301 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:13:54,294 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:13:54,294 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:14:24,305 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:14:24,307 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:14:54,296 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:14:54,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:15:11,645 - INFO - Client 127.0.0.1:61897 disconnected from /chat
+2025-05-21 23:15:11,645 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:15:11,645 - INFO - Total connected clients: 1
+2025-05-21 23:15:11,645 - INFO - Rooms: 1
+2025-05-21 23:15:11,645 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:15:11,645 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:15:11,645 - INFO - ============================
+2025-05-21 23:15:11,649 - INFO - Client 127.0.0.1:61881 disconnected from /
+2025-05-21 23:15:11,649 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:15:11,649 - INFO - Total connected clients: 0
+2025-05-21 23:15:11,649 - INFO - Rooms: 0
+2025-05-21 23:15:11,649 - INFO - ============================
+2025-05-21 23:15:11,654 - INFO - Server shutdown initiated
+2025-05-21 23:15:18,004 - INFO - WebSocket server initialized
+2025-05-21 23:15:18,007 - INFO - HTTP Server running on http://0.0.0.0:8766
+2025-05-21 23:15:18,009 - INFO - WebSocket Server running on ws://0.0.0.0:8765
+2025-05-21 23:15:21,604 - INFO - Client 127.0.0.1:61963 connected to /chat
+2025-05-21 23:15:21,606 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:15:21,606 - INFO - Total connected clients: 1
+2025-05-21 23:15:21,606 - INFO - Rooms: 0
+2025-05-21 23:15:21,606 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:15:21,608 - INFO - ============================
+2025-05-21 23:16:45,763 - INFO - Client 127.0.0.1:62074 connected to /
+2025-05-21 23:16:45,763 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:16:45,763 - INFO - Total connected clients: 2
+2025-05-21 23:16:45,763 - INFO - Rooms: 0
+2025-05-21 23:16:45,763 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:16:45,763 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:16:45,770 - INFO - ============================
+2025-05-21 23:16:47,297 - INFO - Client 127.0.0.1:62074 subscribed to room: session_7
+2025-05-21 23:17:16,297 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:17:16,297 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:17:46,298 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:17:46,298 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:18:16,292 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:18:16,292 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:18:46,302 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:18:46,304 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:19:16,296 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:19:16,298 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:19:46,295 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:19:46,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:20:48,295 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:20:48,295 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:20:48,301 - INFO - Client 127.0.0.1:62074 disconnected from /
+2025-05-21 23:20:48,302 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:20:48,302 - INFO - Total connected clients: 1
+2025-05-21 23:20:48,302 - INFO - Rooms: 0
+2025-05-21 23:20:48,302 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:20:48,304 - INFO - ============================
+2025-05-21 23:20:51,611 - INFO - Client 127.0.0.1:62226 connected to /
+2025-05-21 23:20:51,611 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:20:51,611 - INFO - Total connected clients: 2
+2025-05-21 23:20:51,611 - INFO - Rooms: 0
+2025-05-21 23:20:51,611 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:20:51,611 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:20:51,611 - INFO - ============================
+2025-05-21 23:20:53,300 - INFO - Client 127.0.0.1:62226 subscribed to room: session_7
+2025-05-21 23:21:22,291 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:21:22,291 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:21:52,292 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:21:52,292 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:22:22,298 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:22:22,298 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:22:52,291 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:22:52,291 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:23:22,295 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:23:22,295 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:23:52,296 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:23:52,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:24:18,679 - ERROR - Connection handler error: no close frame received or sent
+2025-05-21 23:24:18,685 - INFO - Client 127.0.0.1:62226 disconnected from /
+2025-05-21 23:24:18,686 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:24:29,142 - INFO - Total connected clients: 1
+2025-05-21 23:24:29,147 - INFO - Rooms: 0
+2025-05-21 23:24:29,149 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:24:29,149 - INFO - ============================
+2025-05-21 23:24:29,149 - ERROR - Connection handler error: no close frame received or sent
+2025-05-21 23:24:29,149 - INFO - Client 127.0.0.1:61963 disconnected from /chat
+2025-05-21 23:24:29,149 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:24:29,149 - INFO - Total connected clients: 0
+2025-05-21 23:24:29,149 - INFO - Rooms: 0
+2025-05-21 23:24:29,151 - INFO - ============================
+2025-05-21 23:24:31,339 - INFO - Client 127.0.0.1:62278 connected to /chat
+2025-05-21 23:24:31,339 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:24:31,339 - INFO - Total connected clients: 1
+2025-05-21 23:24:31,339 - INFO - Rooms: 0
+2025-05-21 23:24:31,341 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:24:31,341 - INFO - ============================
+2025-05-21 23:24:32,610 - INFO - Client 127.0.0.1:62285 connected to /
+2025-05-21 23:24:32,610 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:24:32,610 - INFO - Total connected clients: 2
+2025-05-21 23:24:32,610 - INFO - Rooms: 0
+2025-05-21 23:24:32,610 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:24:32,610 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:24:32,610 - INFO - ============================
+2025-05-21 23:24:34,290 - INFO - Client 127.0.0.1:62285 subscribed to room: session_7
+2025-05-21 23:25:03,293 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:25:03,293 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:25:33,295 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:25:33,295 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:25:51,524 - INFO - Client 127.0.0.1:62278 disconnected from /chat
+2025-05-21 23:25:51,526 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:25:51,526 - INFO - Total connected clients: 1
+2025-05-21 23:25:51,526 - INFO - Rooms: 1
+2025-05-21 23:25:51,526 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:25:51,526 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:25:51,529 - INFO - ============================
+2025-05-21 23:26:03,294 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:26:03,294 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:26:33,291 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:26:33,291 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:27:03,298 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:27:03,300 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:27:26,623 - INFO - Client 127.0.0.1:62394 connected to /chat
+2025-05-21 23:27:26,625 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:27:26,625 - INFO - Total connected clients: 2
+2025-05-21 23:27:26,625 - INFO - Rooms: 1
+2025-05-21 23:27:26,626 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:27:26,626 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:27:26,627 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:27:26,627 - INFO - ============================
+2025-05-21 23:27:26,630 - INFO - Client 127.0.0.1:62394 subscribed to room: chat
+2025-05-21 23:27:26,631 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:27:26,633 - INFO - Sending message of type "auth" to 1 clients
+2025-05-21 23:27:26,641 - INFO - Client 127.0.0.1:62394 subscribed to room: chat
+2025-05-21 23:27:31,892 - INFO - Client 127.0.0.1:62394 disconnected from /chat
+2025-05-21 23:27:31,892 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:27:31,892 - INFO - Total connected clients: 1
+2025-05-21 23:27:31,896 - INFO - Rooms: 1
+2025-05-21 23:27:31,896 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:27:31,896 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:27:31,896 - INFO - ============================
+2025-05-21 23:27:32,940 - INFO - Client 127.0.0.1:62415 connected to /chat
+2025-05-21 23:27:32,942 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:27:32,943 - INFO - Total connected clients: 2
+2025-05-21 23:27:32,946 - INFO - Rooms: 1
+2025-05-21 23:27:32,946 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:27:32,946 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:27:32,946 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:27:32,946 - INFO - ============================
+2025-05-21 23:27:32,946 - INFO - Client 127.0.0.1:62415 subscribed to room: chat
+2025-05-21 23:27:32,946 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:27:32,946 - INFO - Sending message of type "auth" to 1 clients
+2025-05-21 23:27:32,949 - INFO - Client 127.0.0.1:62415 subscribed to room: chat
+2025-05-21 23:27:33,341 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:27:33,342 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:27:47,522 - INFO - Broadcasting to room "session_7": 1 recipients
+2025-05-21 23:27:47,523 - INFO - Sending message of type "chat_message" to 1 clients
+2025-05-21 23:27:50,232 - INFO - HTTP Push request received: {
+  "type": "chat_message",
+  "data": {
+    "id": 114,
+    "session_id": 7,
+    "sender_id": 1,
+    "receiver_id": 68,
+    "message": "hello",
+    "message_type": "text",
+    "file_path": null,
+    "is_seen": false,
+    "created_at": "2025-05-21T17:42:49.000000Z",
+    "created_at_formatted": "23:27:49",
+    "sender": {
+      "id": 1,
+      "name": "Admin ",
+      "profile_pic": "http://127.0.0.1:8000/storage/uploads/4voucaEePYClugPDzvZtBP6AJTK9DusUR2vRLs3E.jpg"
+    }
+  },
+  "room": "session_7",
+  "timestamp": "2025-05-21T17:42:49.185433Z",
+  "server": "laravel"
+}
+2025-05-21 23:27:50,232 - INFO - Broadcasting message to room: session_7
+2025-05-21 23:27:50,232 - INFO - Broadcasting to room "session_7": 1 recipients
+2025-05-21 23:27:50,232 - INFO - Sending message of type "chat_message" to 1 clients
+2025-05-21 23:27:50,890 - INFO - HTTP Push request received: {
+  "type": "user_notification",
+  "data": {
+    "type": "new_message",
+    "message": {
+      "id": 114,
+      "session_id": 7,
+      "sender_id": 1,
+      "receiver_id": 68,
+      "message": "hello",
+      "message_type": "text",
+      "file_path": null,
+      "is_seen": false,
+      "created_at": "2025-05-21T17:42:49.000000Z",
+      "created_at_formatted": "23:27:49",
+      "sender": {
+        "id": 1,
+        "name": "Admin ",
+        "profile_pic": "http://127.0.0.1:8000/storage/uploads/4voucaEePYClugPDzvZtBP6AJTK9DusUR2vRLs3E.jpg"
+      }
+    }
+  },
+  "room": "user_68",
+  "timestamp": "2025-05-21T17:42:50.895302Z",
+  "server": "laravel"
+}
+2025-05-21 23:27:50,890 - INFO - Broadcasting message to room: user_68
+2025-05-21 23:27:50,899 - INFO - Broadcasting to room "user_68": 0 recipients
+2025-05-21 23:27:50,899 - WARNING - No recipients found for message. Room: user_68, Path: user_68
+2025-05-21 23:28:03,304 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:28:03,304 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:28:33,307 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:28:33,307 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:28:53,174 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:28:53,174 - INFO - Sending message of type "auth" to 1 clients
+2025-05-21 23:28:53,176 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:28:53,176 - INFO - Sending message of type "auth" to 1 clients
+2025-05-21 23:28:58,146 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:28:58,148 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:28:58,629 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:28:58,629 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:29:00,581 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:29:00,581 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:29:00,670 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:29:00,678 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:29:00,861 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:29:00,863 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:29:02,872 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:29:02,872 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:29:04,014 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:29:04,014 - INFO - Sending message of type "typing" to 1 clients
+2025-05-21 23:29:04,016 - INFO - Broadcasting to path "/chat": 1 recipients
+2025-05-21 23:29:04,016 - INFO - Sending message of type "chat" to 1 clients
+2025-05-21 23:29:12,612 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:29:12,619 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:29:18,809 - INFO - Broadcasting to room "session_7": 1 recipients
+2025-05-21 23:29:18,809 - INFO - Sending message of type "chat_message" to 1 clients
+2025-05-21 23:29:20,247 - INFO - HTTP Push request received: {
+  "type": "chat_message",
+  "data": {
+    "id": 115,
+    "session_id": 7,
+    "sender_id": 1,
+    "receiver_id": 68,
+    "message": "hello",
+    "message_type": "text",
+    "file_path": null,
+    "is_seen": false,
+    "created_at": "2025-05-21T17:44:19.000000Z",
+    "created_at_formatted": "23:29:19",
+    "sender": {
+      "id": 1,
+      "name": "Admin ",
+      "profile_pic": "http://127.0.0.1:8000/storage/uploads/4voucaEePYClugPDzvZtBP6AJTK9DusUR2vRLs3E.jpg"
+    }
+  },
+  "room": "session_7",
+  "timestamp": "2025-05-21T17:44:20.031682Z",
+  "server": "laravel"
+}
+2025-05-21 23:29:20,247 - INFO - Broadcasting message to room: session_7
+2025-05-21 23:29:20,250 - INFO - Broadcasting to room "session_7": 1 recipients
+2025-05-21 23:29:20,251 - INFO - Sending message of type "chat_message" to 1 clients
+2025-05-21 23:29:20,262 - INFO - HTTP Push request received: {
+  "type": "user_notification",
+  "data": {
+    "type": "new_message",
+    "message": {
+      "id": 115,
+      "session_id": 7,
+      "sender_id": 1,
+      "receiver_id": 68,
+      "message": "hello",
+      "message_type": "text",
+      "file_path": null,
+      "is_seen": false,
+      "created_at": "2025-05-21T17:44:19.000000Z",
+      "created_at_formatted": "23:29:19",
+      "sender": {
+        "id": 1,
+        "name": "Admin ",
+        "profile_pic": "http://127.0.0.1:8000/storage/uploads/4voucaEePYClugPDzvZtBP6AJTK9DusUR2vRLs3E.jpg"
+      }
+    }
+  },
+  "room": "user_68",
+  "timestamp": "2025-05-21T17:44:20.261659Z",
+  "server": "laravel"
+}
+2025-05-21 23:29:20,262 - INFO - Broadcasting message to room: user_68
+2025-05-21 23:29:20,262 - INFO - Broadcasting to room "user_68": 0 recipients
+2025-05-21 23:29:20,262 - WARNING - No recipients found for message. Room: user_68, Path: user_68
+2025-05-21 23:29:32,626 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:29:32,626 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:30:03,303 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:30:03,304 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:30:33,296 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:30:33,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:31:03,293 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:31:03,293 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:31:36,717 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:31:36,722 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:32:03,379 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:32:03,381 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:32:33,305 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:32:33,305 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:33:03,291 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:33:03,291 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:33:48,292 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:33:48,293 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:34:48,293 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:34:48,293 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:34:51,566 - INFO - Client 127.0.0.1:62415 disconnected from /chat
+2025-05-21 23:34:51,570 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:34:51,570 - INFO - Total connected clients: 1
+2025-05-21 23:34:51,570 - INFO - Rooms: 1
+2025-05-21 23:34:51,570 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:34:51,570 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:34:51,570 - INFO - ============================
+2025-05-21 23:35:33,934 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:35:33,934 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:36:03,298 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:36:03,298 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:36:33,293 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:36:33,294 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:37:48,296 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:37:48,296 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:37:48,296 - INFO - Client 127.0.0.1:62285 disconnected from /
+2025-05-21 23:37:48,300 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:37:48,300 - INFO - Total connected clients: 0
+2025-05-21 23:37:48,300 - INFO - Rooms: 0
+2025-05-21 23:37:48,300 - INFO - ============================
+2025-05-21 23:37:51,606 - INFO - Client 127.0.0.1:63160 connected to /
+2025-05-21 23:37:51,606 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:37:51,606 - INFO - Total connected clients: 1
+2025-05-21 23:37:51,606 - INFO - Rooms: 0
+2025-05-21 23:37:51,606 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:37:51,606 - INFO - ============================
+2025-05-21 23:37:53,294 - INFO - Client 127.0.0.1:63160 subscribed to room: session_7
+2025-05-21 23:38:22,301 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:38:22,303 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:38:52,298 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:38:52,300 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:39:22,299 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:39:22,299 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:39:52,302 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:39:52,302 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:40:22,296 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:40:22,296 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:40:52,303 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:40:52,306 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:41:48,296 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:41:48,296 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:42:48,296 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:42:48,296 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:43:48,300 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-21 23:43:48,300 - INFO - Sending message of type "ping" to 1 clients
+2025-05-21 23:44:20,381 - INFO - Client 127.0.0.1:63395 connected to /chat
+2025-05-21 23:44:20,383 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:44:20,383 - INFO - Total connected clients: 2
+2025-05-21 23:44:20,383 - INFO - Rooms: 1
+2025-05-21 23:44:20,383 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:44:20,383 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:44:20,383 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:44:20,383 - INFO - ============================
+2025-05-21 23:44:20,557 - INFO - Client 127.0.0.1:63395 subscribed to room: chat
+2025-05-21 23:44:48,297 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:44:48,297 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:44:59,916 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:44:59,916 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:45:02,629 - INFO - Broadcasting to room "session_7": 1 recipients
+2025-05-21 23:45:02,629 - INFO - Sending message of type "chat_message" to 1 clients
+2025-05-21 23:45:07,721 - INFO - HTTP Push request received: {
+  "type": "chat_message",
+  "data": {
+    "id": 116,
+    "session_id": 7,
+    "sender_id": 1,
+    "receiver_id": 68,
+    "message": "hyhyh",
+    "message_type": "text",
+    "file_path": null,
+    "is_seen": false,
+    "created_at": "2025-05-21T18:00:06.000000Z",
+    "created_at_formatted": "23:45:06",
+    "sender": {
+      "id": 1,
+      "name": "Admin ",
+      "profile_pic": "http://127.0.0.1:8000/storage/uploads/4voucaEePYClugPDzvZtBP6AJTK9DusUR2vRLs3E.jpg"
+    }
+  },
+  "room": "session_7",
+  "timestamp": "2025-05-21T18:00:06.762050Z",
+  "server": "laravel"
+}
+2025-05-21 23:45:07,723 - INFO - Broadcasting message to room: session_7
+2025-05-21 23:45:07,723 - INFO - Broadcasting to room "session_7": 1 recipients
+2025-05-21 23:45:07,723 - INFO - Sending message of type "chat_message" to 1 clients
+2025-05-21 23:45:08,409 - INFO - HTTP Push request received: {
+  "type": "user_notification",
+  "data": {
+    "type": "new_message",
+    "message": {
+      "id": 116,
+      "session_id": 7,
+      "sender_id": 1,
+      "receiver_id": 68,
+      "message": "hyhyh",
+      "message_type": "text",
+      "file_path": null,
+      "is_seen": false,
+      "created_at": "2025-05-21T18:00:06.000000Z",
+      "created_at_formatted": "23:45:06",
+      "sender": {
+        "id": 1,
+        "name": "Admin ",
+        "profile_pic": "http://127.0.0.1:8000/storage/uploads/4voucaEePYClugPDzvZtBP6AJTK9DusUR2vRLs3E.jpg"
+      }
+    }
+  },
+  "room": "user_68",
+  "timestamp": "2025-05-21T18:00:08.407352Z",
+  "server": "laravel"
+}
+2025-05-21 23:45:08,409 - INFO - Broadcasting message to room: user_68
+2025-05-21 23:45:08,409 - INFO - Broadcasting to room "user_68": 0 recipients
+2025-05-21 23:45:08,409 - WARNING - No recipients found for message. Room: user_68, Path: user_68
+2025-05-21 23:45:22,299 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:45:22,300 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:45:52,303 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:45:52,305 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:46:48,296 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:46:48,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:46:50,884 - INFO - Client 127.0.0.1:63395 disconnected from /chat
+2025-05-21 23:46:50,884 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:46:50,884 - INFO - Total connected clients: 1
+2025-05-21 23:46:50,884 - INFO - Rooms: 1
+2025-05-21 23:46:50,886 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:46:50,886 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:46:50,887 - INFO - ============================
+2025-05-21 23:47:12,011 - INFO - Client 127.0.0.1:63518 connected to /chat
+2025-05-21 23:47:12,011 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:47:12,011 - INFO - Total connected clients: 2
+2025-05-21 23:47:12,011 - INFO - Rooms: 1
+2025-05-21 23:47:12,011 - INFO -   Room 'session_7': 1 client(s)
+2025-05-21 23:47:12,011 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:47:12,014 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:47:12,014 - INFO - ============================
+2025-05-21 23:47:12,196 - INFO - Client 127.0.0.1:63518 subscribed to room: chat
+2025-05-21 23:47:48,298 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:47:48,298 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:48:48,294 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:48:48,294 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:49:48,291 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:49:48,291 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:50:48,294 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:50:48,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:51:48,294 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:51:48,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:52:48,296 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:52:48,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:53:48,306 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:53:48,307 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:53:48,310 - INFO - Client 127.0.0.1:63160 disconnected from /
+2025-05-21 23:53:48,310 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:53:48,310 - INFO - Total connected clients: 1
+2025-05-21 23:53:48,310 - INFO - Rooms: 1
+2025-05-21 23:53:48,310 - INFO -   Room 'chat': 1 client(s)
+2025-05-21 23:53:48,310 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:53:48,313 - INFO - ============================
+2025-05-21 23:53:51,606 - INFO - Client 127.0.0.1:63732 connected to /
+2025-05-21 23:53:51,606 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:53:51,606 - INFO - Total connected clients: 2
+2025-05-21 23:53:51,606 - INFO - Rooms: 1
+2025-05-21 23:53:51,606 - INFO -   Room 'chat': 1 client(s)
+2025-05-21 23:53:51,606 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:53:51,612 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:53:51,612 - INFO - ============================
+2025-05-21 23:53:53,293 - INFO - Client 127.0.0.1:63732 subscribed to room: session_7
+2025-05-21 23:54:22,295 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:54:22,295 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:54:52,299 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:54:52,299 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:55:22,292 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:55:22,293 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:55:52,294 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:55:52,296 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:56:22,298 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:56:22,298 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:56:52,299 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:56:52,299 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:57:48,292 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:57:48,292 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:58:48,310 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:58:48,310 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:58:48,313 - INFO - Client 127.0.0.1:63732 disconnected from /
+2025-05-21 23:58:48,314 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:58:48,315 - INFO - Total connected clients: 1
+2025-05-21 23:58:48,316 - INFO - Rooms: 1
+2025-05-21 23:58:48,317 - INFO -   Room 'chat': 1 client(s)
+2025-05-21 23:58:48,318 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:58:48,318 - INFO - ============================
+2025-05-21 23:58:51,610 - INFO - Client 127.0.0.1:63879 connected to /
+2025-05-21 23:58:51,610 - INFO - ==== WebSocket Server Status ====
+2025-05-21 23:58:51,610 - INFO - Total connected clients: 2
+2025-05-21 23:58:51,612 - INFO - Rooms: 1
+2025-05-21 23:58:51,612 - INFO -   Room 'chat': 1 client(s)
+2025-05-21 23:58:51,612 - INFO -   Path '/chat': 1 client(s)
+2025-05-21 23:58:51,612 - INFO -   Path '/': 1 client(s)
+2025-05-21 23:58:51,616 - INFO - ============================
+2025-05-21 23:58:53,306 - INFO - Client 127.0.0.1:63879 subscribed to room: session_7
+2025-05-21 23:59:22,297 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:59:22,297 - INFO - Sending message of type "ping" to 2 clients
+2025-05-21 23:59:52,307 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-21 23:59:52,307 - INFO - Sending message of type "ping" to 2 clients
+2025-05-22 00:00:22,307 - INFO - Broadcasting to path "/": 2 recipients
+2025-05-22 00:00:22,307 - INFO - Sending message of type "ping" to 2 clients
+2025-05-22 00:00:32,652 - ERROR - Connection handler error: no close frame received or sent
+2025-05-22 00:00:32,660 - INFO - Client 127.0.0.1:63879 disconnected from /
+2025-05-22 00:00:32,663 - INFO - ==== WebSocket Server Status ====
+2025-05-22 00:00:32,664 - INFO - Total connected clients: 1
+2025-05-22 00:00:32,665 - INFO - Rooms: 1
+2025-05-22 00:00:32,667 - INFO -   Room 'chat': 1 client(s)
+2025-05-22 09:06:53,639 - INFO -   Path '/chat': 1 client(s)
+2025-05-22 09:06:53,686 - INFO - ============================
+2025-05-22 09:06:53,698 - ERROR - Connection handler error: no close frame received or sent
+2025-05-22 09:06:53,711 - INFO - Client 127.0.0.1:63518 disconnected from /chat
+2025-05-22 09:06:53,724 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:06:53,746 - INFO - Total connected clients: 0
+2025-05-22 09:06:53,772 - INFO - Rooms: 0
+2025-05-22 09:06:53,780 - INFO - ============================
+2025-05-22 09:24:46,972 - INFO - Client 127.0.0.1:63986 connected to /chat
+2025-05-22 09:24:47,014 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:47,014 - INFO - Total connected clients: 1
+2025-05-22 09:24:47,014 - INFO - Rooms: 0
+2025-05-22 09:24:47,016 - INFO -   Path '/chat': 1 client(s)
+2025-05-22 09:24:47,062 - INFO - ============================
+2025-05-22 09:24:47,167 - INFO - Client 127.0.0.1:63988 connected to /chat
+2025-05-22 09:24:47,179 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:47,184 - INFO - Total connected clients: 2
+2025-05-22 09:24:47,184 - INFO - Rooms: 0
+2025-05-22 09:24:47,197 - INFO -   Path '/chat': 2 client(s)
+2025-05-22 09:24:47,326 - INFO - ============================
+2025-05-22 09:24:50,456 - INFO - Client 127.0.0.1:63986 disconnected from /chat
+2025-05-22 09:24:50,460 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:50,463 - INFO - Total connected clients: 1
+2025-05-22 09:24:50,463 - INFO - Rooms: 0
+2025-05-22 09:24:50,463 - INFO -   Path '/chat': 1 client(s)
+2025-05-22 09:24:50,465 - INFO - ============================
+2025-05-22 09:24:52,461 - INFO - Client 127.0.0.1:63988 disconnected from /chat
+2025-05-22 09:24:52,463 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:52,463 - INFO - Total connected clients: 0
+2025-05-22 09:24:52,463 - INFO - Rooms: 0
+2025-05-22 09:24:52,465 - INFO - ============================
+2025-05-22 09:24:54,011 - INFO - Client 127.0.0.1:64040 connected to /chat
+2025-05-22 09:24:54,013 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:54,013 - INFO - Total connected clients: 1
+2025-05-22 09:24:54,013 - INFO - Rooms: 0
+2025-05-22 09:24:54,013 - INFO -   Path '/chat': 1 client(s)
+2025-05-22 09:24:54,013 - INFO - ============================
+2025-05-22 09:24:54,183 - INFO - Client 127.0.0.1:64040 subscribed to room: chat
+2025-05-22 09:24:54,191 - INFO - Client 127.0.0.1:64045 connected to /
+2025-05-22 09:24:54,191 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:54,191 - INFO - Total connected clients: 2
+2025-05-22 09:24:54,195 - INFO - Rooms: 1
+2025-05-22 09:24:54,195 - INFO -   Room 'chat': 1 client(s)
+2025-05-22 09:24:54,195 - INFO -   Path '/chat': 1 client(s)
+2025-05-22 09:24:54,195 - INFO -   Path '/': 1 client(s)
+2025-05-22 09:24:54,195 - INFO - ============================
+2025-05-22 09:24:54,197 - INFO - Client 127.0.0.1:64040 disconnected from /chat
+2025-05-22 09:24:54,197 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:54,197 - INFO - Total connected clients: 1
+2025-05-22 09:24:54,197 - INFO - Rooms: 0
+2025-05-22 09:24:54,205 - INFO -   Path '/': 1 client(s)
+2025-05-22 09:24:54,205 - INFO - ============================
+2025-05-22 09:24:54,207 - INFO - Client 127.0.0.1:64047 connected to /chat
+2025-05-22 09:24:54,209 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:54,209 - INFO - Total connected clients: 2
+2025-05-22 09:24:54,211 - INFO - Rooms: 0
+2025-05-22 09:24:54,221 - INFO -   Path '/': 1 client(s)
+2025-05-22 09:24:54,227 - INFO -   Path '/chat': 1 client(s)
+2025-05-22 09:24:54,229 - INFO - ============================
+2025-05-22 09:24:54,373 - INFO - Client 127.0.0.1:64047 disconnected from /chat
+2025-05-22 09:24:54,377 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:24:54,389 - INFO - Total connected clients: 1
+2025-05-22 09:24:54,391 - INFO - Rooms: 0
+2025-05-22 09:24:54,391 - INFO -   Path '/': 1 client(s)
+2025-05-22 09:24:54,391 - INFO - ============================
+2025-05-22 09:24:55,933 - INFO - Client 127.0.0.1:64045 subscribed to room: session_7
+2025-05-22 09:25:10,222 - INFO - Client 127.0.0.1:64045 disconnected from /
+2025-05-22 09:25:10,222 - INFO - ==== WebSocket Server Status ====
+2025-05-22 09:25:10,222 - INFO - Total connected clients: 0
+2025-05-22 09:25:10,223 - INFO - Rooms: 0
+2025-05-22 09:25:10,223 - INFO - ============================
+2025-05-22 09:25:24,989 - INFO - Server shutdown initiated

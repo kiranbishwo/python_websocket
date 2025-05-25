@@ -1,0 +1,31 @@
+2025-05-19 09:55:57,036 - INFO - Client 127.0.0.1:57526 disconnected from /
+2025-05-19 09:55:57,635 - INFO - ==== WebSocket Server Status ====
+2025-05-19 09:55:57,637 - INFO - Total connected clients: 0
+2025-05-19 09:55:57,637 - INFO - Rooms: 2
+2025-05-19 09:55:57,637 - INFO -   Room 'session_5': 0 client(s)
+2025-05-19 09:55:57,641 - INFO -   Room 'session_6': 0 client(s)
+2025-05-19 09:55:57,643 - INFO - ============================
+2025-05-19 10:16:56,158 - INFO - Client 127.0.0.1:57641 connected to /
+2025-05-19 10:16:56,162 - INFO - ==== WebSocket Server Status ====
+2025-05-19 10:16:56,178 - INFO - Total connected clients: 1
+2025-05-19 10:16:56,186 - INFO - Rooms: 2
+2025-05-19 10:16:56,186 - INFO -   Room 'session_5': 0 client(s)
+2025-05-19 10:16:56,192 - INFO -   Room 'session_6': 0 client(s)
+2025-05-19 10:16:56,192 - INFO -   Path '/': 1 client(s)
+2025-05-19 10:16:56,194 - INFO - ============================
+2025-05-19 10:16:58,185 - INFO - Client 127.0.0.1:57641 subscribed to room: session_7
+2025-05-19 10:17:27,125 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-19 10:17:27,125 - INFO - Sending message of type "ping" to 1 clients
+2025-05-19 10:17:57,113 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-19 10:17:57,113 - INFO - Sending message of type "ping" to 1 clients
+2025-05-19 10:18:27,115 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-19 10:18:27,115 - INFO - Sending message of type "ping" to 1 clients
+2025-05-19 10:18:57,122 - INFO - Broadcasting to path "/": 1 recipients
+2025-05-19 10:18:57,122 - INFO - Sending message of type "ping" to 1 clients
+2025-05-19 10:19:13,669 - INFO - Client 127.0.0.1:57641 disconnected from /
+2025-05-19 10:19:13,669 - INFO - ==== WebSocket Server Status ====
+2025-05-19 10:19:13,673 - INFO - Total connected clients: 0
+2025-05-19 10:19:13,673 - INFO - Rooms: 2
+2025-05-19 10:19:13,673 - INFO -   Room 'session_5': 0 client(s)
+2025-05-19 10:19:13,676 - INFO -   Room 'session_6': 0 client(s)
+2025-05-19 10:19:13,676 - INFO - ============================

@@ -1,0 +1,4 @@
+2025-04-20 19:12:21,347 - INFO - WebSocket Server running on ws://0.0.0.0:8765
+2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50984) connected to /
+2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50985) connected to /
+2025-04-20 19:12:58,419 - INFO - Client ('127.0.0.1', 50986) connected to /
